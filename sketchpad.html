@@ -2,12 +2,29 @@
 <html lang="en" dir="ltr">
   <head>
     <meta charset="utf-8">
-    <title>sketchpad</title>
+    <title>pixelpad</title>
     <link rel="stylesheet" type="text/css" href="style.css">
   </head>
 
   <body>
-    <div id="topbar"></div>
+    <h1>pixelpad</h1>
+    <div id="options-container">
+      <button class="options "type="button" name="button" id="set-squares">
+        set squares
+      </button>
+
+      <select class="options" name="select">
+        <option value="blue">blue</option>
+        <option value="red">red</option>
+        <option value="green">green</option>
+        <option value="black">black</option>
+      </select>
+
+      <button class="options "type="button" name="button" id="reset">
+        reset
+      </button>
+    </div>
+
     <div id="grid" class="container"></div>
   </body>
 
